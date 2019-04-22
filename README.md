@@ -7,6 +7,7 @@ User can also save preferred city to database, which is then automatically retri
 - In app/config/config.php database information must be defined according to your values.
 - API key from OpenWeatherMap can be acquired from: https://openweathermap.org/api
 - URLROOT should be set to your own url root.
+- citypref.sql should be loaded into database.
 
 Note: The database does not distinguish between users!
 
