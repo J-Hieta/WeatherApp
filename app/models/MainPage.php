@@ -4,13 +4,9 @@
             $this->db = new Database();
         }
         public function getTemperature($city) {
-            $temp;
             $url = "https://api.openweathermap.org/data/2.5/weather?q=".$city."&units=metric&appid=".OPENWEATHERMAP_API_KEY;
 
-            //Sample data url
-            //$url = "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22";
-
-
+            // Create cURL call to retrieve data
             $ch = curl_init($url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             $response_json = curl_exec($ch);
