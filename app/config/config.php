@@ -1,15 +1,15 @@
 <?php 
     //Database Parameters
-    define('DB_HOST', 'localhost');
-    define('DB_USER', 'root');
-    define('DB_PASS', 'Deoxyribo0');
-    define('DB_NAME', 'weatherapp');
+    define('DB_HOST', 'YOUR_DB_HOST');
+    define('DB_USER', 'YOUR_DB_USER');
+    define('DB_PASS', 'YOUR_DB_PASSWORD');
+    define('DB_NAME', 'YOUR_DB_NAME');
 
     //OpenWeatherMap API key
-    define('OPENWEATHERMAP_API_KEY', '912bf36787d730e3a5c09e853276c835');
+    define('OPENWEATHERMAP_API_KEY', 'YOUR API KEY');
 
     // App Root
     define('APPROOT', dirname(dirname(__FILE__)));
 
     // URL Root
-    define('URLROOT', 'http://localhost/weatherApp');
+    define('URLROOT', 'YOUR_URL_ROOT');
